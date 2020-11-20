@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sidebar 02</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
+      rel="stylesheet"
+    /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper d-flex align-items-stretch">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Toggle Menu</span>
+          </button>
+        </div>
+        <div class="p-4 pt-5">
+          <section>
+            <a href="http://seu.edu.bd/index.php"
+              ><img src="./image/seu.png" alt=""
+            /></a>
+          </section>
+          <ul class="list-unstyled components mb-5">
+            <li>
+              <a href="index.html">INTRODUCTION</a>
+            </li>
+            <li>
+              <a href="scope.html">SCOPES</a>
+            </li>
+            <li>
+              <a href="editorial_board.html">EDITORIAL BOARD</a>
+            </li>
+            <li>
+              <a href="author_guidelines.html">GUIDELINES FOR AUTHORS</a>
+            </li>
+            <li>
+              <a href="publication_process.html"
+                >PAPER PUBLICATION PROCESS AT SEU JEE</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="#pageSubmenu"
+                data-toggle="collapse"
+                aria-expanded="false"
+                class="dropdown-toggle"
+                >ARCHIVE</a
+              >
+              <ul class="collapse list-unstyled" id="pageSubmenu">
+                <li>
+                  <a href="#">VOLUME1, NUMBER 1, JANUARY 2020</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="contact.html">BUSINESS CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+        <h2 class="green">
+          Southeast University Journal of Electrical and Electronic Engineering
+        </h2>
+
+        <marquee
+          class="blue"
+          direction="left"
+          onmouseover="this.stop();"
+          onmouseout="this.start();"
+          scrollamount="2"
+          scrolldelay="50"
+        >
+          There is no deadline for submission of papers to this journal, it is a
+          rolling process. You may submit your paper any time and review process
+          is continuously running.
+        </marquee>
+        <p style="font-size: 2em; color: black; margin-top: 50px">
+          <b class="green">Scopes</b>
+        </p>
+        <div>
+          <p class="b-left">
+            The subject or research areas to be considered for publication in
+            this journal include, but are not limited to the following
+            diversified fields of Electrical and Electronic Engineering:
+          </p>
+          <div style="margin-top: 30px">
+            <ul>
+              <li>Analog and Integrated Circuits</li>
+              <li>Antenna and Wave Propagation</li>
+              <li>Application Specific Integrated Circuits (ASIC)</li>
+              <li>Artificial Intelligent and Expert System</li>
+              <li>Biomedical Electronics and Applications</li>
+              <li>Biomedical Signal and Image Analysis</li>
+              <li>Circuit Analysis and Applications</li>
+              <li>Communication Network and Systems</li>
+              <li>Complex Adaptive Systems</li>
+              <li>Control Systems Engineering</li>
+              <li>Cryogenics and Cryoelectronics</li>
+              <li>Electric and Electronic Measurement Systems</li>
+              <li>Electric Energy Storage</li>
+              <li>Electric Traction and Vehicle</li>
+              <li>Electrical Drives and Electromechanical Systems</li>
+              <li>Electrical Engineering Materials</li>
+              <li>Electromagnetic Compatibility</li>
+              <li>Electromagnetic Field Analysis and Applications</li>
+              <li>Electron Beam Technologies</li>
+              <li>Electronic Communications</li>
+              <li>Electronic Component</li>
+              <li>Electronic Computer</li>
+              <li>Electronic Design Automation</li>
+              <li>Electronic Materials</li>
+              <li>Electronic Stability Control</li>
+              <li>Electronic Storage</li>
+              <li>High Voltage Apparatuses</li>
+              <li>High Voltage Insulation Technologies</li>
+              <li>Hybrid and Switching Control</li>
+              <li>Information Theory and Coding</li>
+              <li>Instrumentation and Control</li>
+              <li>Intelligent Systems</li>
+              <li>LASERs and Electro-optics</li>
+              <li>Lightning Detection and Protection</li>
+              <li>Linear and Non-linear Circuits and Systems</li>
+              <li>Mechatronics</li>
+              <li>MEMS and NEMS</li>
+              <li>Microelectronics</li>
+              <li>Microwave Engineering and RFID</li>
+              <li>Multimedia Systems and Applications</li>
+              <li>Nanoelectronics</li>
+              <li>Power Engineering</li>
+              <li>Power Quality</li>
+              <li>Power System Analysis</li>
+              <li>Power Systems Stability and Control</li>
+              <li>Renewable Energy Technologies</li>
+              <li>Robotics and Automation</li>
+              <li>Semiconductor Device Fabrication</li>
+              <li>Semiconductor Device Modeling and Simulation</li>
+              <li>Signal and Image Processing</li>
+              <li>Solar Photovoltaic Design</li>
+              <li>Speech Processing</li>
+              <li>System-on-a-Chip (SoC)</li>
+              <li>Transmission and Distribution of Electrical Power</li>
+              <li>Visual Signal Processing and Communications</li>
+              <li>Wireless and Mobile Communication</li>
+              <li>Wireless Mesh Networks</li>
+              <li>Wireless Sensor Networks</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

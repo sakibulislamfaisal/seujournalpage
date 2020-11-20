@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sidebar 02</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
+      rel="stylesheet"
+    /> -->
+    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper d-flex align-items-stretch">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Toggle Menu</span>
+          </button>
+        </div>
+        <div class="p-4 pt-5">
+          <section>
+            <a href="http://seu.edu.bd/index.php"
+            ><img src="./image/seu.png" alt=""
+          /></a>
+          </section>
+          <ul class="list-unstyled components mb-5">
+            <li>
+              <a href="index.html">INTRODUCTION</a>
+            </li>
+            <li>
+              <a href="scope.html">SCOPES</a>
+            </li>
+            <li>
+              <a href="editorial_board.html">EDITORIAL BOARD</a>
+            </li>
+            <li>
+              <a href="author_guidelines.html">GUIDELINES FOR AUTHORS</a>
+            </li>
+            <li>
+              <a href="publication_process.html"
+                >PAPER PUBLICATION PROCESS AT SEU JEE</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="#pageSubmenu"
+                data-toggle="collapse"
+                aria-expanded="false"
+                class="dropdown-toggle"
+                >ARCHIVE</a
+              >
+              <ul class="collapse list-unstyled" id="pageSubmenu">
+                <li>
+                  <a href="#">VOLUME1, NUMBER 1, JANUARY 2020</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="contact.html">BUSINESS CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+        <h2 class="green">
+          Southeast University Journal of Electrical and Electronic Engineering
+        </h2>
+
+        <marquee
+          class="blue"
+          direction="left"
+          onmouseover="this.stop();"
+          onmouseout="this.start();"
+          scrollamount="2"
+          scrolldelay="50"
+        >
+          There is no deadline for submission of papers to this journal, it is a
+          rolling process. You may submit your paper any time and review process
+          is continuously running.
+        </marquee>
+        <p style="font-size: 2em; color:black; margin-top: 50px; text-align: center"><b class="green">Paper Publication Process at SEUJEEE</b></p>
+        <div>
+            <img class="publication-img" src="./image/Publication_Process.jpg" width="100%" height="100%">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
