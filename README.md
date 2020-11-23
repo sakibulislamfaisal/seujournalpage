@@ -1,4 +1,4 @@
-![](https://iili.io/F1vxVa.png)
+![](https://iili.io/FG9TkN.png)
 
 ### Southeast University Journal Page
 

@@ -10850,6 +10850,9 @@ h5,
     top: 10px !important;
   }
 }
+#format-text{
+  text-align:justify;
+}
 #sidebar .custom-menu {
   display: inline-block;
   position: absolute;
