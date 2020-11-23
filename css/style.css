@@ -3489,7 +3489,6 @@ input[type="button"].btn-block {
     right: 0;
     left: auto;
   }
-  
 }
 
 @media (min-width: 992px) {
@@ -3501,8 +3500,6 @@ input[type="button"].btn-block {
     right: 0;
     left: auto;
   }
-  
-
 }
 
 @media (min-width: 1200px) {
@@ -10879,9 +10876,9 @@ h5,
 #sidebar .custom-menu {
   display: inline-block;
   position: absolute;
-  top: -14px;
+  top: -22px;
   right: 0;
-  margin-right:-22px;
+  margin-right: -22px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
