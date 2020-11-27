@@ -10,9 +10,8 @@ This is the Journal Page of Southeast University.
 - Scope Page
 - Editorial Board Page
 - GuideLines For Authors Page
-- Paper Publication Process At SEU JEE Page
 - Archives Page
-- Business Contact Page
+- Business Office Page
 
 ### Front-end Technology :
 
@@ -20,5 +19,5 @@ This is the Journal Page of Southeast University.
 - Bootstrap4
 - CSS3
 - Javascript
-- jQuery
+- SCSS
 
