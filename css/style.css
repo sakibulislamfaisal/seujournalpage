@@ -261,6 +261,8 @@ img {
   height: 82px;
   width: 82px;
   margin-left: 50px;
+  padding:5px;
+ 
 }
 
 img.publication-img {
@@ -10822,6 +10824,7 @@ h5,
 }
 #sidebar ul li > ul li {
   font-size: 14px;
+ 
 }
 #sidebar ul li a {
   padding: 10px 0;
@@ -10829,7 +10832,8 @@ h5,
   color: #078364;
   font-family: "Roboto Slab", serif;
   font-size: 14px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(161, 113, 113, 0.1);
+  margin-top:1px;
 }
 #sidebar ul li a:hover {
   color: green;
